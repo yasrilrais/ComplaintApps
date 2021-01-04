@@ -11,4 +11,10 @@
     <color name="black_alpha_75">#bf000000</color>
     <color name="white">#ffffffff</color>
 
+    <color name="SpaceCadet">#2b2d42</color>
+    <color name="Manatee">#8d99ae</color>
+    <color name="AliceBlue">#edf2f4</color>
+    <color name="ImperialRed">#ef233c</color>
+    <color name="AmaranthRed">#d90429</color>
+
 </resources>
