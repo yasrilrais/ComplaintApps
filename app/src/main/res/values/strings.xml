@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ComplaintApps</string>
     <string name="todo">TODO</string>
+    <string name="namaapp">HaloRektor</string>
+    <string name="Masukkan">MASUKKAN</string>
+    <string name="Keluhan">KELUHAN</string>
+    <string name="greeting">Halo,</string>
+    <string name="username">Your Name</string>
+    <string name="menu">Menu</string>
+    <string name="notif">Notifications</string>
+    <string name="inputkeluhanhint">Masukkan keluhan… </string>
 </resources>
