@@ -12,6 +12,15 @@
         android:orientation="vertical"
         android:layout_margin="20dp">
 
+        <EditText
+            android:id="@+id/inId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="number"
+            android:visibility="gone"/>
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
@@ -34,10 +43,10 @@
         <EditText
             android:id="@+id/editKeluhan"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="97dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            />
+            android:inputType="textLongMessage" />
+
         <ProgressBar
             android:id="@+id/progressInput"
             style="?android:attr/progressBarStyleLarge"
@@ -78,10 +87,18 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonLihat"
+                android:id="@+id/buttonUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Riwayat Keluhan" />
+                android:text="Update Keluhan"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Keluhan"
+                android:visibility="gone"/>
         </LinearLayout>
 
     </LinearLayout>
