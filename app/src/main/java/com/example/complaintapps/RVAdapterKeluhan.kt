@@ -18,8 +18,8 @@ class RVAdapterKeluhan(private val context: Context, private val arrayList: Arra
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.view.IdList.text = arrayList?.get(position)?.id_keluhan.toString()
-        holder.view.KdList.text = "Kd : "+arrayList?.get(position)?.keluhan
-        holder.view.TanggalList.text = "Namafak : "+arrayList?.get(position)?.tgl_input
+        holder.view.KdList.text = "Keluhan : "+arrayList?.get(position)?.keluhan
+        holder.view.TanggalList.text = "Tanggal input : "+arrayList?.get(position)?.tgl_input
 
         holder.view.cvList.setOnClickListener {
 
